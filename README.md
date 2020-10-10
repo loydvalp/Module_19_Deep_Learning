@@ -40,4 +40,4 @@ Software: Python 3.7.6, Anaconda 4.8.4, Jupyter Notebook 6.0.3
       - Were you able to achieve the target model performance? What steps did you take to try and increase model performance?
       - If you were to implement a different model to solve this classification problem, which would you choose? Why?
      
-      
+## Summary      
