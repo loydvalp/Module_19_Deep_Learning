@@ -22,9 +22,15 @@ Software: Python 3.7.6, Anaconda 4.8.4, Jupyter Notebook 6.0.3
 1. Create a new Jupyter Notebook within a new folder on your computer. Name this new notebook file “AlphabetSoupChallenge.ipynb” entifiable).
 2. Download charity_data.csv
 3. Import and characterize the input data.
-      - What variable(s) are considered the target for your model?
+      - What variable(s) are considered the target for your model? 
+      SPECIAL_CONSIDERATIONS and IS_SUCCESSFUL
+      
       - What variable(s) are considered to be the features for your model?
+      APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT, IS_SUCCESSFUL
+      
       - What variable(s) are neither and should be removed from the input data?
+      EIN and NAME
+      
 4. Using the methods described in this module, preprocess all numerical and categorical variables, as needed:
       - Combine rare categorical values via bucketing.
       - Encode categorical variables using one-hot encoding.
