@@ -43,13 +43,15 @@ Software: Python 3.7.6, Anaconda 4.8.4, Jupyter Notebook 6.0.3
  7. Do your best to optimize your model training and input data to achieve a target predictive accuracy higher than 75%.
  8. Create a new README.txt file within the same folder as your AlphabetSoupChallenge.ipynb notebook. Include a 5–10 sentence writeup in your README that addresses the following questions:
       - How many neurons and layers did you select for your neural network model? Why?
+      
       I used Neural network model to predict the success of an organization.  Tried not to overfit the model, so I didn't use a lot of layers.  1 input and 2 hidden_nodes_layer(units) were 16 and 1.  Another input and 3 hidden_nodes_layer(units) were 16, 8, and 1.  The number of epochs for each were 100.  
-      I also used deep learning model to see if there would be any differences. 
+  
        
       - Were you able to achieve the target model performance? What steps did you take to try and increase model performance?
       
       I was not successful at achieving 75% when my target was IS_SUCCESSFUL.  I got an average of 72.5%.  I changed several unit/neurons and the accuracy didn't improve.  Therefore, I decided to change the target.  Changing the target jumped the accurary to 99%.  
+      
       - If you were to implement a different model to solve this classification problem, which would you choose? Why?
       
-   SVM model are less prone to overfitting because they are trying to maximize the distance, instead of enclose all data within a boundary.   
+      SVM model are less prone to overfitting because they are trying to maximize the distance, instead of enclose all data within a boundary.   
    
